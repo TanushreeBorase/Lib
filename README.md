@@ -10,8 +10,8 @@ By leveraging modern technologies and best practices, the proposed solution aims
 
 In summary, the library management system offers a comprehensive solution for efficiently managing library resources and operations. With its user-friendly interface, extensive librarian capabilities, administrative tools, and robust technology stack, the system empowers libraries to streamline their processes, enhance user experiences, and maintain accurate records.
 
-1.2	Entity And Relationships
-1.2.1 Entities Used
+# Entity And Relationships
+Entities Used
 • Books:
 Attributes: book code, book name, subject code, author, price, status (available, issued, lost, damaged), date issued, and date return                                       
 • Members:
