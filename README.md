@@ -1,7 +1,7 @@
 # Lib repository
 By leveraging modern technologies and best practices, the proposed solution aims to create a robust and user-friendly platform that meets the diverse needs of libraries and patrons. At its core, the system enables users to search for books, facilitating easy access to the library's collection. Functions for issuing and returning books streamline transactions, ensuring a smooth borrowing experience for patrons.
 
--> Fines management is integrated into the system, allowing users to check for any fines associated with overdue books, thus promoting accountability and timely returns. Librarian privileges include accessing member information, tracking books issued by specific students, and managing membership by adding or removing students as needed. Additionally, librarians can oversee the library's inventory by adding, deleting, or updating book records and adjusting availability statuses
+-> <b>Fines management</b> is integrated into the system, allowing users to check for any fines associated with overdue books, thus promoting accountability and timely returns. Librarian privileges include accessing member information, tracking books issued by specific students, and managing membership by adding or removing students as needed. Additionally, librarians can oversee the library's inventory by adding, deleting, or updating book records and adjusting availability statuses
 
 -> The system's administrative dashboard provides comprehensive tools for managing member and book records. Admins can view, update, or delete member and book records, ensuring data accuracy and system integrity. Modules such as admin login, book search, book and member management, and book issuance further enhance the system's functionality, catering to diverse user needs.
 
@@ -12,10 +12,13 @@ In summary, the library management system offers a comprehensive solution for ef
 
 # Entity And Relationships
 Entities Used
+
 • Books:
-Attributes: book code, book name, subject code, author, price, status (available, issued, lost, damaged), date issued, and date return                                       
+Attributes: book code, book name, subject code, author, price, status (available, issued, lost, damaged), date issued, and date return         
+
 • Members:
 Attributes: member ID, name, address, date of expiry of membership, and status of book issues (which books they have currently borrowed and their respective due dates).
+
 • Transactions:
 Attributes: book code, member ID, date borrowed, date returned (optional, indicating if the book has been returned).
 
@@ -33,6 +36,8 @@ Attributes: book code, member ID, date borrowed, date returned (optional, indica
   When a member borrows a book, a new transaction record is created in the transactions table.
   This transaction record includes a reference to both the member and the book involved in the borrowing transaction.
   The transaction record also stores additional details such as the date of borrowing and the due date for return.
+
+  
 
 
 
