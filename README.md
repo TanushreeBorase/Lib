@@ -13,13 +13,13 @@ In summary, the library management system offers a comprehensive solution for ef
 # Entity And Relationships
 Entities Used
 
-• Books:
+• <b>Books:</b>
 Attributes: book code, book name, subject code, author, price, status (available, issued, lost, damaged), date issued, and date return         
 
-• Members:
+•<b> Members:</b>
 Attributes: member ID, name, address, date of expiry of membership, and status of book issues (which books they have currently borrowed and their respective due dates).
 
-• Transactions:
+•<b> Transactions:</b>
 Attributes: book code, member ID, date borrowed, date returned (optional, indicating if the book has been returned).
 
 # Relationships
